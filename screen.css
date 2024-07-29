@@ -124,7 +124,7 @@ div#header {
 
 	div#header h1 {
 		/*background:url(../img/logo-title.gif) no-repeat;*/
-		background: transparent url('../img/cieCandResultsSprites.gif') no-repeat 0px -161px;
+		background: transparent url('https://static.wixstatic.com/media/dbdc57_2d1e04cb26374942882105c4a5d82640~mv2.gif') no-repeat 0px -161px;
 		float:left;
 		height:22px;
 		margin:12px 0;
@@ -143,7 +143,7 @@ div#header {
 		width: 252px;
 		height: 57px;
 		margin:14px 0;
-		background: transparent url('../img/CAIE_logo_colour_2.png') no-repeat;
+		background: transparent url('https://static.wixstatic.com/media/dbdc57_24f6a9ad702c47259218ffd49de5f221~mv2.png') no-repeat;
 		}
 
 
@@ -325,7 +325,7 @@ div#session {
 			width: 16px;
 			height: 14px;
 			margin: 2px 5px 2px 0;
-		    background: transparent url('../img/cieCandResultsSprites.gif') no-repeat 0 -27px;
+		    background: transparent url('https://static.wixstatic.com/media/dbdc57_2d1e04cb26374942882105c4a5d82640~mv2.gif') no-repeat 0 -27px;
 		}
 			
 		a#logout-button:hover {
@@ -399,12 +399,12 @@ div#yourresults {}
 				width: 12px;
 				height: 12px;
 				margin: 2px 5px 2px 0;
-				background: url('../img/cieCandResultsSprites.gif') no-repeat 0 0;
+				background: url('https://static.wixstatic.com/media/dbdc57_2d1e04cb26374942882105c4a5d82640~mv2.gif') no-repeat 0 0;
 			}
 
 		div#yourresults table tfoot td#printpage a {
 			/*background:url(../img/icon-print.gif) no-repeat left center;*/
-			background: url('../img/cieCandResultsSprites.gif') no-repeat 0 -56px;
+			background: url('https://static.wixstatic.com/media/dbdc57_2d1e04cb26374942882105c4a5d82640~mv2.gif') no-repeat 0 -56px;
 			padding-left:22px;
 			float:right;
 			}
@@ -430,7 +430,7 @@ div#yourresults {}
 		a#whatnext-button strong {
 			padding-left: 20px;
 			margin-left: 8px;
-			background: url('../img/cieCandResultsSprites.gif') no-repeat 0 -87px;
+			background: url('https://static.wixstatic.com/media/dbdc57_2d1e04cb26374942882105c4a5d82640~mv2.gif') no-repeat 0 -87px;
 		}
 
 
