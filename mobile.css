@@ -1,0 +1,179 @@
+/*
+--------------------------------------------
+ESOL Teacher Support | print
+version: 06.02.2008
+--------------------------------------------
+1. Global Overrides
+2. Styling Overrides
+--------------------------------------------
+*/
+
+
+/* 1. Global Overrides
+--------------------------------------------
+*/
+body {
+ background:white;
+ color:black;
+ font:100% Arial, Helvetica, sans-serif;
+ margin:0;
+ max-width:320px;
+ }
+ 
+a:link, a:visited {color:#0468b6;}
+a:hover, a:active {color:green;}
+a img {border:none;}
+
+h1 {
+ background-color:#0468b6;
+ border-bottom:4px solid #b8d9f1;
+ font-size:145%;
+ margin:0 0 8px 0;
+ padding:4px 0 4px 6px;
+ }
+ 
+ div#header h1 a {
+  color:white;
+  text-decoration:none;
+  }
+
+h3 {
+  font-weight:normal;
+  margin-bottom:4px;
+  }
+
+hr {
+ border-bottom:none;
+ border-top:1px solid #ccc;
+ }
+
+
+/* 2. Styling Overrides
+--------------------------------------------
+*/
+div#header img {margin:4px 0 8px 6px; width:160px; height:27px;}
+
+p#skip,
+ul#nav,
+table caption,
+table td#printpage,
+a#whatnext-button,
+div#whatnext br,
+div#footer img,
+div#footer br {
+ display:none !important;
+ visibility:hidden !important;
+ }
+
+div#yourresults,
+div#whatnext,  
+div#legal,
+div#error,
+div#footer {margin:0 6px;}
+
+ 
+/* Login page */
+div#login fieldset {
+ border:none;
+ margin:0;
+ }
+  
+ div#login legend {padding:0 0 8px 0;}
+ 
+ div#login label {
+  display:block;
+  font-weight:bold;
+  }
+  
+ div#login input {margin:2px 0;}
+ 
+ div#login span {
+  color:#666;
+  display:block;
+  }
+  
+ div#login input#submit {
+  display:block;
+  width:140px;
+  }
+
+
+/* Closed page */
+div#login.closed {
+ background-color:#0468b6;
+ color:white;
+ padding:1px 6px;
+ }
+ 
+ div#login.closed em {font-style:normal;}
+
+
+/* Results page */
+div#session {
+ border:1px dotted #a3a3a3;
+ border-left:none;
+ border-right:none;
+ padding:0 0 8px 6px;
+ }
+ 
+ div#session a#logout-button {font-weight:bold;}
+
+div#yourresults table {
+ border:1px solid #ccc;
+ text-align:left;
+ margin-bottom:10px;
+ width:100%;
+ }
+
+ div#yourresults table thead th {
+  border-bottom:1px solid #666;
+  font-weight:bold;
+  padding:4px;
+  }
+ 
+ div#yourresults table tfoot td {
+  border:none;
+  color:#666;
+  }
+
+ div#yourresults table td {
+  border-bottom:1px solid #a3a3a3;
+  padding:4px;
+  }
+
+  div#yourresults table td span.exam {
+   color:green;
+   font-weight:bold;
+   }
+
+ div#whatnext dl a.email,
+ div#whatnext dl span.work {
+  color:green;
+  text-decoration:none;
+  }
+  
+   div#whatnext dl a.email:hover {text-decoration:underline;}
+
+
+/* Error page */
+div#error h2 {color:#b6040b;}
+
+ div.error {
+  background-color:#ffeff0;
+  border:1px solid #b6040b;
+  border-left:none;
+  border-right:none;
+  padding:6px;
+  }
+
+ div.error h4 {
+  border-bottom:1px dotted #df6f76;
+  color:#b6040b;
+  margin-top:0;
+  padding-bottom:4px;
+  }
+	
+ div.error ul li span {color:green;}
+
+
+/* -------------------------------------- */

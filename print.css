@@ -1,0 +1,79 @@
+/*
+--------------------------------------------
+ESOL Teacher Support | print
+version: 06.02.2008
+--------------------------------------------
+1. Global Overrides
+2. Styling Overrides
+--------------------------------------------
+*/
+
+
+/* 1. Global Overrides
+--------------------------------------------
+*/
+body {
+	background:white;
+	color:black;
+	font:12pt/1.4em "Times New Roman", Times, serif;
+	width:auto;
+	}
+
+a:link, a:visited {color:#4169e1;}
+a img {border:none;}
+
+h1 {display:none;}
+
+h2 {
+	font:14pt Arial, Helvetica, sans-serif;
+	letter-spacing:-0.03em;
+	}
+	
+h3 {
+	border:1px dotted #ccc;
+	border-left:none;
+	border-right:none;
+	font:11pt Arial, Helvetica, sans-serif;
+	line-height:18pt;
+	padding:12px;
+	}
+
+	h3 span {color:#ccc;}
+	
+h4 {
+	font:11pt Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	letter-spacing:-0.03em;
+	}
+
+ul {list-style-type:circle;}
+
+
+/* 2. Styling Overrides
+--------------------------------------------
+*/
+#skip,
+#nav,
+#logout-button,
+#printpage,
+#whatnext-button,
+#legal span,
+#legal ul,
+hr,
+#footer {
+	display:none !important;
+	visibility:hidden !important;
+	}
+
+table {width:100%;}
+
+	table caption {
+		padding-bottom:8px;
+		text-align:left;
+		}
+
+	table, td {border:1px solid #ccc;}
+
+	thead td, tfoot td {border:none;}
+
+/* -------------------------------------- */
