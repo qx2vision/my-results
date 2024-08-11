@@ -586,6 +586,6 @@ div#content-wrapper {
 /* Scaling for different screen sizes */
 @media screen {
     div#content-wrapper {
-        transform: scale(0.5);
+        transform: scale(0.4);
     }
 }
