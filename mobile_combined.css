@@ -10,6 +10,8 @@ version: [21.04.2008]
 5. Styling
 --------------------------------------------
 */
+
+
 /* -----------------------------------------
  1. Colour Values 
 ============================================
@@ -19,620 +21,571 @@ CIE blue	0468b6
 lite grey	e8ebf0
 link blue	0069bf
 */
+
+
 /* -----------------------------------------
  2. YUI Global Reset 
 ========================================= */
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
-    margin: 0;
-    padding: 0
-    }
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+	}
 table {
-    border-collapse: collapse;
-    border-spacing: 0
-    }
-fieldset, img {
-    border: none
-    }
-address, caption, cite, code, dfn, em, strong, th, var {
-    font-style: normal;
-    font-weight: normal
-    }
-ol, ul {
-    list-style: none
-    }
-caption, th {
-    text-align: left
-    }
-h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
-    font-weight: normal
-    }
-q:before, q:after {
-    content: ""
-    }
-abbr, acronym {
-    border: 0
-    }
+	border-collapse:collapse;
+	border-spacing:0;
+	}
+fieldset,img {
+	border:none;
+	}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+	}
+ol,ul {
+	list-style:none;
+	}
+caption,th {
+	text-align:left;
+	}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+	}
+q:before,q:after {
+	content:'';
+	}
+abbr,acronym { border:0;
+	}
+
+
 /* -----------------------------------------
  3. Generic Styles 
 ========================================= */
-.clearboth {
-    clear: both !important
-    }
-.floatl {
-    display: inline;
-    float: left !important
-    }
-.floatr {
-    display: inline;
-    float: right !important
-    }
-.hideall, .hidescreen, .hideprint, .hidehandheld {
-    display: none !important;
-    visibility: hidden !important
-    }
-.noborder {
-    border: none !important
-    }
-.smalltext {
-    font-size: 0.8em !important
-    }
+
+.clearboth {clear:both !important;}
+.floatl {display:inline; float:left !important;}
+.floatr {display:inline; float:right !important;}
+.hideall, .hidescreen, .hideprint, .hidehandheld {display:none !important; visibility:hidden !important;}
+.noborder {border:none !important;}
+.smalltext {font-size:0.8em !important;}
+
+
 /* -----------------------------------------
  4. Global Styles 
 ========================================= */
-html > body {
-    font-size: 12px
-    }
-a:hover {
-    color: #024375
-    }
-a:active {
-    color: green
-    }
-p {
-    clear: both;
-    font-size: 100%;
-    margin-bottom: 1em
-    }
-h2 {
-    clear: both;
-    font-size: 115%;
-    font-weight: bold;
-    margin: 1em 0
-    }
-h4 {
-    border-bottom: 1px dotted #74A8CF;
-    clear: both;
-    font-weight: bold;
-    margin: 1.5em 0 1em 0;
-    padding-bottom: 4px
-    }
-strong {
-    font-weight: bold
-    }
-ul {
-    list-style-type: disc;
-    list-style-position: inside;
-    margin-left: 10px
-    }
+
+html>body {font-size:12px;}
+body {
+	background-color:#fdfdfd;
+	color:#312e2e;
+	font:75% Verdana, Arial, Helvetica, sans-serif;
+	line-height:1.5em;
+	margin:0 auto;
+	width:740px;
+	}
+
+a:link, a:visited {color:#267cc0;}
+a:hover {color:#024375;}
+a:active {color:green;}
+a img {border:none;}
+
+p {clear:both; font-size:100%; margin-bottom:1em;}
+h1 {font-size:160%; font-weight:bold;}
+h2 {clear:both; font-size:115%; font-weight:bold; margin:1em 0;}
+h3 {font-size:130%; font-weight:bold; width:620px;}
+h4 {border-bottom:1px dotted #74A8CF; clear:both; font-weight:bold; margin:1.5em 0 1em 0; padding-bottom:4px;}
+
+strong {font-weight:bold;}
+
+ul {list-style-type:disc; list-style-position:inside; margin-left:10px;}
+
+hr {display:none; visibility:hidden;}
+
+
 /* -----------------------------------------
  5. Styling 
 ========================================= */
+
 /* Header 
 ----------------------------------------- */
 p#skip {
-    display: none;
-    visibility: hidden
-    }
+	display:none;
+	visibility:hidden;
+	}
+
 div#header {
-    border-bottom: 1px solid #0468b6;
-    border-top: 2px solid #0468b6;
-    height: 70px;
-    margin: 1em 0;
-    padding-bottom: 1em
-    }
-div#header h1 {
-    /*background:url(../img/logo-title.gif) no-repeat;*/
-    background: transparent url('https://static.wixstatic.com/media/dbdc57_2d1e04cb26374942882105c4a5d82640~mv2.gif') no-repeat 0 -161px;
-    float: left;
-    height: 22px;
-    margin: 12px 0;
-    text-align: left;
-    text-indent: -9999px;
-    width: 210px
-    }
-span.logo {
-    float: right;
-    width: 252px;
-    height: 57px;
-    margin: 14px 0;
-    background: transparent url('https://static.wixstatic.com/media/dbdc57_24f6a9ad702c47259218ffd49de5f221~mv2.png') no-repeat
-    }
+	border-bottom:1px solid #0468b6;
+	border-top:2px solid #0468b6;
+	height:70px;
+	margin:1em 0;
+	padding-bottom: 1em;
+	}
+
+	div#header h1 {
+		/*background:url(../img/logo-title.gif) no-repeat;*/
+		background: transparent url('https://static.wixstatic.com/media/dbdc57_2d1e04cb26374942882105c4a5d82640~mv2.gif') no-repeat 0px -161px;
+		float:left;
+		height:22px;
+		margin:12px 0;
+		text-align:left;
+		text-indent:-9999px;
+		width:210px;
+		}
+		
+	div#header img {	
+		float:right;
+		margin:14px 0;
+		}
+		
+	span.logo {	
+		float:right;
+		width: 252px;
+		height: 57px;
+		margin:14px 0;
+		background: transparent url('https://static.wixstatic.com/media/dbdc57_24f6a9ad702c47259218ffd49de5f221~mv2.png') no-repeat;
+		}
+
+
 /* Login 
 ----------------------------------------- */
 div#login {
-    background-color: #0468b6;
-    clear: both;
-    color: #fdfdfd;
-    padding: 1em
-    }
-div#login.closed h2 {
-    font-size: 130%;
-    margin-bottom: 1.6em
-    }
-div#login.closed p#date {
-    background: url(../img/icon-date.gif) no-repeat left center;
-    margin: 4em 0 4em 8px;
-    padding-left: 22px
-    }
-div#login.closed p#date em {
-    font-weight: bold
-    }
-div#login form {
-    margin: 14px 0 1em 0;
-    width: 100%
-    }
-div#login form fieldset {
-    margin-left: 6px
-    }
-div#login form fieldset div#credentials {
-    float: left;
-    margin: 26px 0 0 40px
-    }
-div#login form fieldset legend {
-    color: #fdfdfd;
-    font-size: 130%;
-    font-weight: bold;
-    margin: 0 5px 0 -5px
-    }
-div#login form fieldset label {
-    float: left;
-    font-weight: bold;
-    line-height: 2.7em;
-    margin-right: 20px;
-    width: 6.5em
-    }
-div#login form fieldset input.username, div#login form fieldset input.password {
-    border: 1px solid #03497f;
-    color: #035a9e;
-    font-size: 200%;
-    margin: 0 12px 6px 0;
-    padding: 2px 6px;
-    width: 10em
-    }
-div#login form fieldset input.username {
-    float: left
-    }
-div#login form fieldset input.password {
-    float: left
-    }
-div#login form fieldset span {
-    float: left;
-    font-size: 90%;
-    margin-top: 8px;
-    width: 18em
-    }
-div#login form fieldset input#submit {
-    color: #03497f;
-    font-weight: bold;
-    margin: 1px 0 0 0;
-    padding: 6px 18px;
-    width: auto
-    }
-div#login form fieldset input#submit:hover, div#login form fieldset input#submit:active {
-    color: green
-    }
-div#login form fieldset p {
-    clear: both;
-    margin: 0;
-    padding-top: 2em
-    }
+	background-color:#0468b6;
+	clear:both;
+	color:#fdfdfd;
+	padding:1em;
+	}
+	
+	div#login.closed {padding-left:20px;}
+	
+		div#login.closed h2 {font-size:130%; margin-bottom:1.6em;}
+		
+		div#login.closed p#date {
+			background:url(../img/icon-date.gif) no-repeat left center;
+			margin:4em 0 4em 8px;
+			padding-left:22px;
+			}
+
+		div#login.closed p#date em {font-weight:bold;}
+
+	div#login form {
+		margin:14px 0 1em 0;
+		width:100%;
+		}
+		
+		div#login form fieldset {margin-left:6px;}
+		
+		div#login form fieldset div#credentials {
+			float:left;
+			margin:26px 0 0 40px;
+			}
+			
+			div#login form fieldset legend {
+				color:#fdfdfd;
+				font-size:130%;
+				font-weight:bold;
+				margin:0 5px 0 -5px;
+				}
+
+			div#login form fieldset label {
+				float:left;
+				font-weight:bold;
+				line-height:2.7em;
+				margin-right:20px;
+				width:6.5em;
+				}
+
+			div#login form fieldset input.username,
+			div#login form fieldset input.password {
+				border:1px solid #03497f;
+				color:#035a9e;
+				font-size:200%;
+				margin:0 12px 6px 0;
+				padding:2px 6px;
+				width:10em;
+				}
+
+				div#login form fieldset input.username {float:left;}
+				div#login form fieldset input.password {float:left;}
+
+			div#login form fieldset span {
+				float:left;
+				font-size:90%;
+				margin-top:8px;
+				width:18em;
+				}
+
+			div#login form fieldset input#submit {
+				color:#03497f;
+				font-weight:bold;
+				margin:1px 0 0 0;
+				padding:6px 18px;
+				width:auto;
+				}
+
+				div#login form fieldset input#submit:hover,
+				div#login form fieldset input#submit:active {color:green;}
+
+		div#login form fieldset p {
+			clear:both;
+			margin:0;
+			padding-top:2em; 
+			}
+
+
 /* Navigation 
 ----------------------------------------- */
 ul#nav {
-    display: none;
-    /* hidden for non-Javascript browsers */
-    border-bottom: 1px solid #cbcbcb;
-    clear: both;
-    margin-left: 0;
-    padding: 5px 0;
-    white-space: nowrap
-    }
-ul#nav li {
-    display: inline;
-    list-style-type: none;
-    margin-right: -2px
-    }
-ul#nav a, ul#nav a:link, ul#nav a:visited {
-    background-color: #ccd3df;
-    color: #444;
-    cursor: pointer;
-    font-weight: bold;
-    padding: 7px 17px;
-    text-decoration: none
-    }
-ul#nav a:hover {
-    background-color: #e92178;
-    color: #fdfdfd
-    }
-/* JQuery Tabbed Nav */
-@media projection, screen {
-    /* Use class for showing/hiding tab content */
-    .ui-tabs-hide {
-        display: none
-        }
-    }
-/* Selected-state tab */
-ul#nav li.ui-tabs-selected a {
-    background-color: #0468b6 !important;
-    border-bottom: 1px solid #0468b6;
-    color: #fdfdfd !important
-    }
-ul#nav li.ui-tabs-selected a:hover {
-    background-color: #e92178 !important;
-    border-bottom-color: #e92178;
-    color: #fdfdfd
-    }
-/* /end */
+	display:none; /* hidden for non-Javascript browsers */
+
+	border-bottom:1px solid #cbcbcb;
+	clear:both;
+	margin-left:0;
+	padding:5px 0;
+	white-space:nowrap;
+	}
+
+	ul#nav li {
+		display:inline;
+		list-style-type:none;
+		margin-right:-2px;
+		}
+
+	ul#nav a,
+	ul#nav a:link, 
+	ul#nav a:visited {
+		background-color:#ccd3df;
+		color:#444;
+		cursor:pointer;
+		font-weight:bold;
+		padding:7px 17px;
+		text-decoration:none;
+		}
+
+	ul#nav a:hover {
+		background-color:#e92178;
+		color:#fdfdfd;
+		}
+
+	/* JQuery Tabbed Nav */
+	@media projection, screen { 
+	/* Use class for showing/hiding tab content */
+    .ui-tabs-hide {display:none;}
+	}
+
+	/* Selected-state tab */
+	ul#nav li.ui-tabs-selected a { 
+		background-color:#0468b6 !important;
+		border-bottom:1px solid #0468b6;
+		color:#fdfdfd !important;
+		}
+		
+		ul#nav li.ui-tabs-selected a:hover {
+			background-color:#e92178 !important;
+			border-bottom-color:#e92178;
+			color:#fdfdfd;
+			}
+	/* /end */
+
+
 /* Session
 ----------------------------------------- */
-div#session h3 {
-    color: #312e2e;
-    float: left;
-    line-height: 1.6em
-    }
-div#session h3 span {
-    color: #888;
-    font-weight: normal
-    }
-a#logout-button {
-    /*background:#c5e1f5 url(../img/icon-logout.gif) no-repeat 8px center;*/
-    background: #c5e1f5;
-    border: 1px solid #0468b6;
-    float: right;
-    margin-top: 8px;
-    padding: 6px 8px 6px 8px /*30px*/;
-    text-decoration: none
-    }
-a#logout-button span {
-    float: left;
-    width: 16px;
-    height: 14px;
-    margin: 2px 5px 2px 0;
-    background: transparent url('https://static.wixstatic.com/media/dbdc57_2d1e04cb26374942882105c4a5d82640~mv2.gif') no-repeat 0 -27px
-    }
-a#logout-button:hover {
-    background-color: #f6d5de;
-    border-color: #e92178;
-    color: #e92178
-    }
+div#session {
+	border-bottom:1px dotted #bfbfbf;
+	color:#a3a3a3;
+	float:left;
+	padding:1.5em 0;
+	margin:0 0 2em 0;
+	width:100%;
+	}
+
+	div#session h3 {
+		color:#312e2e;
+		float:left;
+		line-height:1.6em;
+		}
+
+		div#session h3 span {
+			color:#888;
+			font-weight:normal;
+			}
+		
+	a#logout-button {		
+		/*background:#c5e1f5 url(../img/icon-logout.gif) no-repeat 8px center;*/
+		background:#c5e1f5 ;
+		border:1px solid #0468b6;
+		float:right;
+		margin-top:8px;
+		padding:6px 8px 6px 8px/*30px*/;
+		text-decoration:none;
+		}
+		
+		a#logout-button span {	
+		    float: left;
+			width: 16px;
+			height: 14px;
+			margin: 2px 5px 2px 0;
+		    background: transparent url('https://static.wixstatic.com/media/dbdc57_2d1e04cb26374942882105c4a5d82640~mv2.gif') no-repeat 0 -27px;
+		}
+			
+		a#logout-button:hover {
+			background-color:#f6d5de;
+			border-color:#e92178;
+			color:#e92178;
+			}
+
+
 /* Your Results 
 ----------------------------------------- */
-div#yourresults table caption {
-    display: none
-    }
-div#yourresults table thead {
-    background-color: #e92178;
-    color: #fdfdfd
-    }
-div#yourresults table thead th#t-examination {
-    width: 60%
-    }
-div#yourresults table thead th#t-qualification {
-    width: 15%
-    }
-div#yourresults table thead th#t-grade {
-    width: 25%
-    }
-div#yourresults table tbody {
-    font-size: 110%
-    }
-div#yourresults table tbody tr.zebra {
-    background-color: #f3f5f7
-    }
-div#yourresults table tbody td {
-    border: 1px solid #e4e4e4;
-    border-left: none;
-    border-top: none;
-    padding: 7px 8px
-    }
-div#yourresults table tbody td span.exam {
-    float: left
-    }
-div#yourresults table tbody td span.examinfo {
-    color: #888;
-    float: right
-    }
-div#yourresults table tbody td.result {
-    border-right: none
-    }
-div#yourresults table tbody td.result span {
-    color: #888
-    }
-div#yourresults table tfoot {
-    border-bottom: 1px solid #df8bb0;
-    font-size: 85%
-    }
-div#yourresults table tfoot td#info {
-    /*background:url(../img/icon-info.gif) no-repeat 8px center;*/
-    }
-div#yourresults table tfoot td#info span {
-    float: left;
-    width: 12px;
-    height: 12px;
-    margin: 2px 5px 2px 0;
-    background: url('https://static.wixstatic.com/media/dbdc57_2d1e04cb26374942882105c4a5d82640~mv2.gif') no-repeat 0 0
-    }
-div#yourresults table tfoot td#printpage a {
-    /*background:url(../img/icon-print.gif) no-repeat left center;*/
-    background: url('https://static.wixstatic.com/media/dbdc57_2d1e04cb26374942882105c4a5d82640~mv2.gif') no-repeat 0 -56px;
-    padding-left: 22px;
-    float: right
-    }
-a#whatnext-button {
-    display: none;
-    /* hidden for non-Javascript browsers */
-    background: #c5e1f5 /*url(../img/icon-whatnext.gif) no-repeat 8px center*/;
-    border: 1px solid #0468b6;
-    float: right;
-    letter-spacing: -0.02em;
-    margin-bottom: 4px;
-    padding: 6px 8px 6px 0 /*30px*/;
-    text-decoration: none
-    }
-a#whatnext-button:hover {
-    background-color: #f6d5de;
-    border-color: #e92178;
-    color: #e92178
-    }
-a#whatnext-button strong {
-    padding-left: 20px;
-    margin-left: 8px;
-    background: url('https://static.wixstatic.com/media/dbdc57_2d1e04cb26374942882105c4a5d82640~mv2.gif') no-repeat 0 -87px
-    }
+div#yourresults {}
+	
+	div#yourresults table {	
+		margin-bottom:2em;
+		width:100%;
+		}	
+
+	div#yourresults table caption {display:none;}
+
+	div#yourresults table thead {
+		background-color:#e92178;
+		color:#fdfdfd;
+		}
+
+		div#yourresults table thead th {
+			font-weight:bold;
+			padding:4px 8px;
+			}
+
+		div#yourresults table thead th#t-examination {width:60%;}		
+		div#yourresults table thead th#t-qualification {width:15%;}
+		div#yourresults table thead th#t-grade {width:25%;}			
+
+	div#yourresults table tbody {font-size:110%;}	
+
+		div#yourresults table tbody tr.zebra {background-color:#f3f5f7;}			
+
+		div#yourresults table tbody td {
+			border:1px solid #e4e4e4;
+			border-left:none;
+			border-top:none;
+			padding:7px 8px;
+			}
+
+		div#yourresults table tbody td span.exam {float:left;}	
+
+		div#yourresults table tbody td span.examinfo {
+			color:#888;
+			float:right;
+			}
+
+		div#yourresults table tbody td.result {border-right:none;}
+
+		div#yourresults table tbody td.result span {color:#888;}
+
+	div#yourresults table tfoot {
+		border-bottom:1px solid #df8bb0;
+		font-size:85%;
+		}	
+
+		div#yourresults table tfoot td {padding:8px 0 8px 8px/*24px*/;}	
+
+		div#yourresults table tfoot td#info {
+			/*background:url(../img/icon-info.gif) no-repeat 8px center;*/
+			
+			}
+			
+			div#yourresults table tfoot td#info span {
+				float: left;
+				width: 12px;
+				height: 12px;
+				margin: 2px 5px 2px 0;
+				background: url('https://static.wixstatic.com/media/dbdc57_2d1e04cb26374942882105c4a5d82640~mv2.gif') no-repeat 0 0;
+			}
+
+		div#yourresults table tfoot td#printpage a {
+			/*background:url(../img/icon-print.gif) no-repeat left center;*/
+			background: url('https://static.wixstatic.com/media/dbdc57_2d1e04cb26374942882105c4a5d82640~mv2.gif') no-repeat 0 -56px;
+			padding-left:22px;
+			float:right;
+			}
+
+	a#whatnext-button {
+		display:none; /* hidden for non-Javascript browsers */
+		
+		background:#c5e1f5 /*url(../img/icon-whatnext.gif) no-repeat 8px center*/;
+		border:1px solid #0468b6;
+		float:right;
+		letter-spacing:-0.02em;
+		margin-bottom:4px;
+		padding:6px 8px 6px 0/*30px*/;
+		text-decoration:none;
+		}
+			
+		a#whatnext-button:hover {
+			background-color:#f6d5de;
+			border-color:#e92178;
+			color:#e92178;
+			}
+			
+		a#whatnext-button strong {
+			padding-left: 20px;
+			margin-left: 8px;
+			background: url('https://static.wixstatic.com/media/dbdc57_2d1e04cb26374942882105c4a5d82640~mv2.gif') no-repeat 0 -87px;
+		}
+
+
 /* What's Next? 
 ----------------------------------------- */
-div#whatnext em {
-    font-style: italic
-    }
-div#whatnext dl {
-    border-top: 1px solid #ccc;
-    margin: 2em 0 0 0;
-    padding: 0;
-    width: 39.6em
-    }
-div#whatnext dt, div#whatnext dd {
-    font-size: 120%
-    }
-div#whatnext dt {
-    border-bottom: 1px solid #ccc;
-    float: left;
-    margin: 0;
-    padding: 0.5em 1em;
-    width: 5em
-    }
-div#whatnext dd {
-    border-bottom: 1px solid #ccc;
-    float: left;
-    margin: 0;
-    padding: 0.5em 1em;
-    width: 24em
-    }
-p.final {
-    padding-top: 2em
-    }
-p.final span {
-    color: #999;
-    display: block
-    }
+div#whatnext {}
+
+	div#whatnext em {font-style:italic;}
+
+	div#whatnext dl {
+		border-top:1px solid #ccc;
+		margin:2em 0 0 0;
+		padding:0;
+		width:39.6em;
+		}
+		
+	div#whatnext dt,
+	div#whatnext dd	{font-size:120%;}
+
+	div#whatnext dt {
+		border-bottom:1px solid #ccc;
+		float:left;
+		margin:0;
+		padding:0.5em 1em;
+		width:5em;
+		}
+
+	div#whatnext dd {
+		border-bottom:1px solid #ccc;
+		float:left;
+		margin:0;
+		padding:0.5em 1em;
+		width:24em;
+		}
+		
+	p.final {padding-top:2em;}
+		
+		p.final span {
+			color:#999;
+			display:block;
+			}
+
+
 /* Error Handling
 ----------------------------------------- */
-div.error ul {
-    margin-bottom: 1em
-    }
-div.error ul li span, div#error ul li span {
-    color: green;
-    font-variant: small-caps;
-    margin-left: 4px
-    }
-div#error {
-    margin-top: 2.5em
-    }
+div.error {
+	background-color:#ffeff0;
+	border:1px solid #b6040b;
+	border-left:none;
+	border-right:none;
+	margin:1.5em;
+	padding:10px;
+	}
+	
+	div.error h4 {
+		border-color:#df6f76;
+		color:#b6040b;
+		margin-top:0;
+		}
+		
+	div.error ul {margin-bottom:1em;}
+	
+	div.error ul li span,
+	div#error ul li span {
+		color:green;
+		font-variant:small-caps;
+		margin-left:4px;
+		}
+		
+div#error {margin-top:2.5em;}
+
+	div#error h2 {color:#b6040b;}
+
+
 /* Legal Information
 ----------------------------------------- */
 div#legal span {
-    float: left;
-    margin-right: 6px
-    }
+	float:left;
+	margin-right:6px;
+	}
+
 div#legal ul {
-    list-style: none;
-    float: left;
-    margin: 0 0 2em 0;
-    overflow: hidden;
-    padding: 1px 0;
-    width: auto
-    }
-div#legal ul li {
-    border-left: 1px solid #ccc;
-    float: left;
-    line-height: 1.2em;
-    margin: 0 0.5em 0 -0.5em;
-    padding: 0 0.5em 0 0.5em;
-    white-space: nowrap
-    }
+	list-style:none;
+	float:left;
+	margin:0 0 2em 0;
+	overflow:hidden;
+	padding:1px 0;
+	width:auto;
+	}
+
+	div#legal ul li	{
+		border-left:1px solid #ccc;
+		float:left;
+		line-height:1.2em;
+		margin:0 .5em 0 -.5em;
+		padding:0 .5em 0 .5em;
+		white-space:nowrap;
+		}
+		
 a.returntotop {
-    border-bottom: 1px solid #267cc0;
-    border-top: 1px solid #267cc0;
-    float: right;
-    padding: 2px 0;
-    text-decoration: none
-    }
-a.returntotop:hover, a.returntotop:active {
-    border-color: #024375
-    }
+ border-bottom:1px solid #267cc0;
+ border-top:1px solid #267cc0;
+ float:right;
+ padding:2px 0;
+ text-decoration:none;
+ }
+ 
+ a.returntotop:hover,
+ a.returntotop:active {
+  border-color:#024375;
+  }
+
+
 /* Footer 
 ----------------------------------------- */
 div#footer {
-    border-bottom: 2px solid #0468b6;
-    border-top: 2px solid #0468b6;
-    float: left;
-    margin-top: 32px;
-    padding: 12px 0 4px 0;
-    width: 100%
-    }
+	border-bottom:2px solid #0468b6;
+	border-top:2px solid #0468b6;
+	float:left;
+	margin-top:32px;
+	padding:12px 0 4px 0;
+	width:100%;
+	}
+	
 div#footer:after {
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-    visibility: hidden
-    }
-div#footer.login {
-    margin-top: 1em
-    }
-div#footer p {
-    float: left;
-    font-size: 80%;
-    line-height: 1.6em;
-    margin-top: 10px;
-    width: 580px
-    }
-div#footer img {
-    float: right
-    }
+	clear:both;
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	}
+
+	div#footer.login {margin-top:1em;}
+	
+	div#footer p {
+		float:left;
+		font-size:80%;
+		line-height:1.6em;
+		margin-top:10px;
+		width:580px;
+		}
+		
+	div#footer img {float:right;}
+
+
 /* -------------------------------------- */
-body {
-    background: white;
-    color: black;
-    font: 100% Arial, Helvetica, sans-serif;
-    margin: 0;
-    max-width: 320px
+
+/* Wrap the entire content in a container */
+div#content-wrapper {
+    transform-origin: top left;
+}
+
+/* Scaling for different screen sizes */
+@media screen {
+    div#content-wrapper {
+        transform: scale(0.5);
     }
-a:link, a:visited {
-    color: #0468b6
-    }
-a:hover, a:active {
-    color: green
-    }
-a img {
-    border: none
-    }
-h1 {
-    background-color: #0468b6;
-    border-bottom: 4px solid #b8d9f1;
-    font-size: 145%;
-    margin: 0 0 8px 0;
-    padding: 4px 0 4px 6px
-    }
-div#header h1 a {
-    color: white;
-    text-decoration: none
-    }
-h3 {
-    font-weight: normal;
-    margin-bottom: 4px
-    }
-hr {
-    border-bottom: none;
-    border-top: 1px solid #ccc
-    }
-div#header img {
-    margin: 4px 0 8px 6px;
-    width: 160px;
-    height: 27px
-    }
-p#skip, ul#nav, table caption, table td#printpage, a#whatnext-button, div#whatnext br, div#footer img, div#footer br {
-    display: none !important;
-    visibility: hidden !important
-    }
-div#yourresults, div#whatnext, div#legal, div#error, div#footer {
-    margin: 0 6px
-    }
-div#login fieldset {
-    border: none;
-    margin: 0
-    }
-div#login legend {
-    padding: 0 0 8px 0
-    }
-div#login label {
-    display: block;
-    font-weight: bold
-    }
-div#login input {
-    margin: 2px 0
-    }
-div#login span {
-    color: #666;
-    display: block
-    }
-div#login input#submit {
-    display: block;
-    width: 140px
-    }
-div#login.closed {
-    background-color: #0468b6;
-    color: white;
-    padding: 1px 6px
-    }
-div#login.closed em {
-    font-style: normal
-    }
-div#session {
-    border: 1px dotted #a3a3a3;
-    border-left: none;
-    border-right: none;
-    padding: 0 0 8px 6px
-    }
-div#session a#logout-button {
-    font-weight: bold
-    }
-div#yourresults table {
-    border: 1px solid #ccc;
-    text-align: left;
-    margin-bottom: 10px;
-    width: 100%
-    }
-div#yourresults table thead th {
-    border-bottom: 1px solid #666;
-    font-weight: bold;
-    padding: 4px
-    }
-div#yourresults table tfoot td {
-    border: none;
-    color: #666
-    }
-div#yourresults table td {
-    border-bottom: 1px solid #a3a3a3;
-    padding: 4px
-    }
-div#yourresults table td span.exam {
-    color: green;
-    font-weight: bold
-    }
-div#whatnext dl a.email, div#whatnext dl span.work {
-    color: green;
-    text-decoration: none
-    }
-div#whatnext dl a.email:hover {
-    text-decoration: underline
-    }
-div#error h2 {
-    color: #b6040b
-    }
-div.error {
-    background-color: #ffeff0;
-    border: 1px solid #b6040b;
-    border-left: none;
-    border-right: none;
-    padding: 6px
-    }
-div.error h4 {
-    border-bottom: 1px dotted #df6f76;
-    color: #b6040b;
-    margin-top: 0;
-    padding-bottom: 4px
-    }
-div.error ul li span {
-    color: green
-    }
+}
